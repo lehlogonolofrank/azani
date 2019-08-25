@@ -1,0 +1,25 @@
+RESULTS FROM RUNNING COMMAND PROMPT
+
+(env) C:\Users\nomvula mbovane\Documents\FLASK_APP>flask run
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: Could not import "app".
+
+(env) C:\Users\nomvula mbovane\Documents\FLASK_APP>
+
+
+
+I TRIED TO RUN THIS APP USING COMMAND PROMPT WITH NO SUCCESS!
+
+from flask import Flask
+
+app= Flask(_name_)
+
+@app.route('/')
+def index():
+	return '<h1>Hello!</h1>'
